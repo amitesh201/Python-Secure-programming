@@ -1,3 +1,4 @@
+                                                                         PROJECT DESCRIPTION
 This project is written in python language. The project uses sqlite3 and python3 so make sure you get these two installed before running the project. The project does not use anything additional that needs to be installed. The main file here is called “assignment_11.py” which imports “api.py” to perform the operations on sqlite3 database. “api.py” imports connect.py. 
 The assignment us asks us to make input validation program that lets user to ADD, LIST and DELETE the entries present in Table in database. The input validation in this program which accepts valid cases and rejects all other invalid cases is written using regex. When the input is validated the function is called to perform the ADD/DEL operation. The input validation prevents sql injection and makes our program secure. 
 
